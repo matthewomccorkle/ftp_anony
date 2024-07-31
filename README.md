@@ -6,6 +6,7 @@ If the script detects a 230 status code it then captures all of the connectivity
 The script displays in stdout whether it was sucessful in connecting to the FTP service anonymously. 
 <p>
 Usage:<br>
-```
-  ./ftp_anony.sh -i "INPUT FILE_OR IP" -p "PORT" -u "USERNAME" -P "PASSWORD"
+
+```bash
+./ftp_anony.sh -i "INPUT FILE_OR IP" -p "PORT" -u "USERNAME" -P "PASSWORD"
 ```
